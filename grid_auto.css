@@ -1,0 +1,22 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background: radial-gradient(circle, #fff, #ccc);
+  padding: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px) 1fr;
+  grid-template-rows: repeat(3, 150px);
+  grid-auto-rows: 100px;
+  border: 3px solid black;
+  grid-auto-flow: row;
+}
+
+.grid-item {
+  border: 1px solid black;
+}

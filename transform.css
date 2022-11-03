@@ -1,0 +1,31 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.content {
+  background: #fff;
+  padding: 20px 5px;
+}
+
+.caja {
+  background: #000;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: flex;
+  color: #fff;
+  transition: transform 1s;
+  /*Es lo mismo que colocar 
+  transition-property: transform;
+  transition-duration: 1s;
+  Esto es un shorthands*/
+}
+
+.caja:hover {
+  transform: scale(1.2) translate(20px);
+}
+
+b {
+  margin: auto;
+}

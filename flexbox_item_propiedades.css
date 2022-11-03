@@ -1,0 +1,30 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.flex-item {
+  background: #248;
+  color: #fff;
+  min-width: 150px;
+  height: 100px;
+  flex: 1;
+  width: 300px;
+}
+
+.orange {
+  background: orange;
+  flex: 1 0 350px;
+  order: 50;
+}
+
+.green {
+  background: green;
+  order: 20;
+}

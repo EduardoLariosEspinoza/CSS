@@ -1,0 +1,35 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+form {
+  margin: 100px auto;
+  display: block;
+  background: grey;
+  padding: 100px;
+  width: 50%;
+}
+
+input {
+  padding: 6px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: bisque;
+}
+
+input::selection {
+  background: black;
+  color: white;
+}
+
+b::before {
+  content: "antes";
+}
+
+b::after {
+  content: "despues";
+}

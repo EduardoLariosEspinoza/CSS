@@ -1,0 +1,15 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.cont {
+  width: 500px;
+  border: 2px solid black;
+}
+
+.cont img {
+  float: right;
+  width: 250px;
+}
